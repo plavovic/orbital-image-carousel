@@ -1,0 +1,41 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\DT User\Documents\GitHub\orbital\.npmrc
+5 silly config load:file:C:\Users\DT User\.npmrc
+6 silly config load:file:C:\Users\DT User\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm publish ./image-orbit-carousel-0.1.0.tgz
+8 verbose argv "publish" "./image-orbit-carousel-0.1.0.tgz" "--dry-run" "--ignore-scripts" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\DT User\Documents\GitHub\orbital\.npm-cache\_logs\2026-10-14T21_35_06_990Z-
+10 verbose logfile C:\Users\DT User\Documents\GitHub\orbital\.npm-cache\_logs\2026-10-14T21_35_06_990Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose publish [ './image-orbit-carousel-0.1.0.tgz' ]
+13 notice
+14 notice 📦  image-orbit-carousel@0.1.0
+15 notice Tarball Contents
+16 notice 6.4kB README.md
+16 notice 11.9kB dist/index.cjs
+16 notice 1.4kB dist/index.d.cts
+16 notice 1.4kB dist/index.d.ts
+16 notice 10.3kB dist/index.js
+16 notice 1.6kB dist/styles.css
+16 notice 1.2kB package.json
+17 notice Tarball Details
+18 notice name: image-orbit-carousel
+19 notice version: 0.1.0
+20 notice filename: image-orbit-carousel-0.1.0.tgz
+21 notice package size: 8.0 kB
+22 notice unpacked size: 34.3 kB
+23 notice shasum: 156dbbf8a32f499c958bad3bf860224f3d24a4a2
+24 notice integrity: sha512-lOe2fbiu0kGIM[...]owF2hjZYof8bg==
+25 notice total files: 7
+26 notice
+27 warn This command requires you to be logged in to https://registry.npmjs.org/ (dry-run)
+28 notice Publishing to https://registry.npmjs.org/ with tag latest and default access (dry-run)
+29 verbose cwd C:\Users\DT User\Documents\GitHub\orbital
+30 verbose os Windows_NT 10.0.26200
+31 verbose node v22.12.0
+32 verbose npm  v10.9.0
+33 verbose exit 0
+34 info ok

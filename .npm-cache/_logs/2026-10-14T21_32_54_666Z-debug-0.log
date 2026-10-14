@@ -1,0 +1,46 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\DT User\Documents\GitHub\orbital\.npmrc
+5 silly config load:file:C:\Users\DT User\.npmrc
+6 silly config load:file:C:\Users\DT User\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm pack
+8 verbose argv "pack" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\DT User\Documents\GitHub\orbital\.npm-cache\_logs\2026-10-14T21_32_54_666Z-
+10 verbose logfile C:\Users\DT User\Documents\GitHub\orbital\.npm-cache\_logs\2026-10-14T21_32_54_666Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 245ms
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 notice
+16 notice 📦  image-orbit-carousel@0.1.0
+17 notice Tarball Contents
+18 notice 6.4kB README.md
+18 notice 11.9kB dist/index.cjs
+18 notice 1.4kB dist/index.d.cts
+18 notice 1.4kB dist/index.d.ts
+18 notice 10.3kB dist/index.js
+18 notice 1.6kB dist/styles.css
+18 notice 1.2kB package.json
+19 notice Tarball Details
+20 notice name: image-orbit-carousel
+21 notice version: 0.1.0
+22 notice filename: image-orbit-carousel-0.1.0.tgz
+23 notice package size: 8.0 kB
+24 notice unpacked size: 34.3 kB
+25 notice shasum: 156dbbf8a32f499c958bad3bf860224f3d24a4a2
+26 notice integrity: sha512-lOe2fbiu0kGIM[...]owF2hjZYof8bg==
+27 notice total files: 7
+28 notice
+29 verbose cwd C:\Users\DT User\Documents\GitHub\orbital
+30 verbose os Windows_NT 10.0.26200
+31 verbose node v22.12.0
+32 verbose npm  v10.9.0
+33 notice
+33 notice New major version of npm available! 10.9.0 -> 12.2.0
+33 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+33 notice To update run: npm install -g npm@12.2.0
+33 notice  { force: true, [Symbol(proc-log.meta)]: true }
+34 verbose exit 0
+35 info ok

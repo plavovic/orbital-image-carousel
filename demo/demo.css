@@ -1,0 +1,29 @@
+:root { font-family: system-ui, sans-serif; color: #e9edf5; background: #0d1018; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1440px; margin: auto; padding: 32px; }
+h1 { font-size: clamp(28px, 4vw, 44px); margin: 6px 0; letter-spacing: -.04em; }
+p { color: #a6b0c3; line-height: 1.6; }
+.eyebrow { color: #a8a0ff; font-size: 12px; letter-spacing: .18em; margin: 0; }
+.layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 24px; margin-top: 28px; }
+aside, .preview, .usage { border: 1px solid #292f40; border-radius: 16px; background: #141925; }
+aside { padding: 24px; display: flex; flex-direction: column; gap: 18px; }
+label { display: block; font-size: 13px; }
+output { float: right; color: #b7b0ff; }
+select { width: 100%; margin-top: 8px; padding: 9px; background: #202738; border: 1px solid #3a435a; border-radius: 6px; color: inherit; }
+input[type=range] { width: 100%; margin-top: 10px; accent-color: #a69aff; }
+.check { display: flex; align-items: center; gap: 8px; }
+.preview { overflow: hidden; }
+.center { color: #9e96d9; font-size: 22px; letter-spacing: .18em; }
+.hint { font-size: 12px; padding: 0 24px 12px; }
+.ioc-controls button { background: #272f44; border: 1px solid #46506b; border-radius: 7px; color: #fff; }
+.usage { margin-top: 24px; padding: 24px; }
+h2 { font-size: 20px; margin-top: 0; }
+pre { overflow-x: auto; color: #c2bbff; font-size: 14px; line-height: 1.7; margin-bottom: 0; }
+.destinations { margin-top: 36px; }
+.destinations > div { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+article { padding: 12px; background: #141925; border: 1px solid #292f40; border-radius: 10px; scroll-margin-top: 24px; }
+article:target { outline: 3px solid #b7b0ff; }
+article img { width: 100%; border-radius: 6px; }
+a { color: #b7b0ff; }
+@media (max-width: 760px) { main { padding: 16px; } .layout { grid-template-columns: 1fr; } aside { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; } .ioc { max-height: 480px; } }
